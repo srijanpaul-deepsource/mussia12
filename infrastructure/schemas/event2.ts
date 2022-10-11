@@ -1,4 +1,5 @@
 import { Avro } from '../types';
+import Foo from 'does-not-exist'
 
 const event2: Avro[] = [
   {
@@ -13,4 +14,4 @@ const event2: Avro[] = [
   },
 ];
 
-export { event2 };
+export { event2, Foo };
